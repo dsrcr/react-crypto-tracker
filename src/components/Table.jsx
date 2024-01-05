@@ -100,7 +100,7 @@ const Table = ({ data, columns, loadingMessage }) => {
 };
 
 Table.propTypes = {
-  data: PropTypes.array.isRequired,
+  data: PropTypes.array,
   columns: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string.isRequired,
